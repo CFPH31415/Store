@@ -1,0 +1,14 @@
+span {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    text-shadow: 1px 1px #ccc;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #ddd, #fff);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px #aaa;
+  }
+  

@@ -1,0 +1,29 @@
+<mat-card class="a">
+  <mat-card-content class="b">
+    <h1 class="text-center">Tabla de Articulos</h1>
+    <div class="c">
+      <button mat-raised-button (click)="agregarArticulo()" 
+      class="d">Add data</button>
+    </div>
+    <table class="e">
+      <thead class="f">
+        <tr>
+          <th class="g">Código</th>
+          <th class="g">Descripción</th>
+          <th class="g">Precio</th>
+          <th class="g">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let arti of articulo">
+          <td class="h">{{arti.codigo}}</td>
+          <td class="h">{{arti.descripcion}}</td>
+          <td class="h">S/. {{arti.precio}}</td>
+          <td class="h">
+            <button class="z" (click)="onClickDelete(arti)"><span class="material-symbols-outlined flex items-center">delete</span></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </mat-card-content>
+</mat-card>

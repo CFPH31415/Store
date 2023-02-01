@@ -1,0 +1,60 @@
+.a {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.b {
+  padding: 2rem;
+}
+
+.c {
+  margin-bottom: 2rem;
+}
+
+.d {
+  background-color: #3399ff;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.e {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.f {
+  background-color: lightgray;
+}
+
+.g {
+  padding: 1rem;
+  text-align: center;
+}
+
+.h {
+  padding: 1rem;
+  text-align: center;
+}
+
+.z {
+  background-color: #ff3333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
