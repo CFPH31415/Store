@@ -3,7 +3,7 @@
     <h1 class="text-center">Tabla de Articulos</h1>
     <div class="c">
       <button mat-raised-button (click)="agregarArticulo()" 
-      class="d">Add data</button>
+      class="d">Agregar data</button>
     </div>
     <table class="e">
       <thead class="f">
@@ -11,7 +11,7 @@
           <th class="g">Código</th>
           <th class="g">Descripción</th>
           <th class="g">Precio</th>
-          <th class="g">Acciones</th>
+          <th class="g">Eliminar</th>
         </tr>
       </thead>
       <tbody>
@@ -20,7 +20,7 @@
           <td class="h">{{arti.descripcion}}</td>
           <td class="h">S/. {{arti.precio}}</td>
           <td class="h">
-            <button class="z" (click)="onClickDelete(arti)"><span class="material-symbols-outlined flex items-center">delete</span></button>
+            <button class="z" (click)="onClickDelete(arti)"><span class="material-symbols-outlined flex items-center">eliminar</span></button>
           </td>
         </tr>
       </tbody>
